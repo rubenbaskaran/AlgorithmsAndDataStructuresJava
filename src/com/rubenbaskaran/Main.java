@@ -7,6 +7,7 @@ public class Main
 //        System.out.println(ReverseString.ReverseString("hello!!"));
 //        System.out.println(Palindrome.Palindrome("helleh"));
 //        System.out.println(String.valueOf(ReverseInteger.ReverseInteger(-357000)));
-        System.out.println(String.valueOf(MaxChar.MaxChar("abbcccddddeeeeefgghhiiijjjjkkkkkooooo")));
+//        System.out.println(String.valueOf(MaxChar.MaxChar("abbcccddddeeeeefgghhiiijjjjkkkkkooooo")));
+        FizzBuzz.FizzBuzz(30);
     }
 }
