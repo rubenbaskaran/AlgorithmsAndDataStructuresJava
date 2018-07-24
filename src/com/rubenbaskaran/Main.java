@@ -15,7 +15,8 @@ public class Main
 //        System.out.println(Capitalize.Capitalize("this is a test from admin !!!"));
 //        Steps.Steps(20);
 //        System.out.println(Pyramid.Pyramid(5));
+//        System.out.println(Vowels.Vowels("this is a test message with vowels"));
 
-        System.out.println(Vowels.Vowels("this is a test message with vowels"));
+        MatrixSpiral.MatrixSpiral(5);
     }
 }
