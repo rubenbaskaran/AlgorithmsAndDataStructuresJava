@@ -15,6 +15,11 @@ class Steps
                 stringBuilder.append("#");
             }
 
+            for (int space = 1; space <= maxSteps - step; space++)
+            {
+                stringBuilder.append(" ");
+            }
+
             stringBuilder.append("'");
             stringBuilder.append("\n");
         }
