@@ -16,7 +16,8 @@ public class Main
 //        Steps.Steps(20);
 //        System.out.println(Pyramid.Pyramid(5));
 //        System.out.println(Vowels.Vowels("this is a test message with vowels"));
+//        MatrixSpiral.MatrixSpiral(5);
 
-        MatrixSpiral.MatrixSpiral(5);
+        Fibonacci.Fibonacci(5);
     }
 }
