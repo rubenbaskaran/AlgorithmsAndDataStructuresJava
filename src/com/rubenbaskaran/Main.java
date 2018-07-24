@@ -13,8 +13,9 @@ public class Main
 //        ArrayChunking.ArrayChunking(array, 6);
 //        System.out.println(Anagrams.Anagrams("abbccc", "c!AB!!c!b!c"));
 //        System.out.println(Capitalize.Capitalize("this is a test from admin !!!"));
-        Steps.Steps(20);
-
+//        Steps.Steps(20);
 //        System.out.println(Pyramid.Pyramid(5));
+
+        System.out.println(Vowels.Vowels("this is a test message with vowels"));
     }
 }
