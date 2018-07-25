@@ -19,12 +19,14 @@ class Stack
 
     Integer Pop()
     {
-        return stack.size() == 0 ? null : stack.remove(stack.size() - 1);
+
+        return stack.isEmpty() ? null : stack.remove(stack.size() - 1);
     }
 
     Integer Peek()
     {
-        return stack.size() == 0 ? null : stack.get(stack.size() - 1);
+
+        return stack.isEmpty() ? null : stack.get(stack.size() - 1);
     }
 
     void Print()
