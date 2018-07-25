@@ -17,12 +17,18 @@ public class Main
 //        System.out.println(Pyramid.Pyramid(5));
 //        System.out.println(Vowels.Vowels("this is a test message with vowels"));
 //        MatrixSpiral.MatrixSpiral(5);
-//        Fibonacci.Fibonacci(5);
+//        FibonacciTest();
 //        StackTest();
 //        QueueTest();
 //        BubbleSortTest();
-        SelectionSort();
+//        SelectionSort();
+    }
 
+    private static void FibonacciTest()
+    {
+        Fibonacci.Fibonacci(10);
+        System.out.println();
+        System.out.println(Fibonacci.FibonacciRecursive(10));
     }
 
     static void QueueTest()

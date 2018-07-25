@@ -11,10 +11,20 @@ class Fibonacci
         {
             int newNumber = numberOne + numberTwo;
 
-            System.out.println(newNumber);
+            System.out.print(newNumber + " ");
 
             numberOne = numberTwo;
             numberTwo = newNumber;
         }
+    }
+
+    static int FibonacciRecursive(int length)
+    {
+        if (length < 2)
+        {
+            return length;
+        }
+
+        return FibonacciRecursive(length - 1) + FibonacciRecursive(length - 2);
     }
 }
