@@ -18,9 +18,29 @@ public class Main
 //        System.out.println(Vowels.Vowels("this is a test message with vowels"));
 //        MatrixSpiral.MatrixSpiral(5);
 //        Fibonacci.Fibonacci(5);
-        StackTest();
+//        StackTest();
+        QueueTest();
 
         // TODO: Queue, BubbleSort, SelectionSort
+    }
+
+    static void QueueTest()
+    {
+        Queue queueOne = new Queue();
+        Queue queueTwo = new Queue();
+        Queue mergedQueue = new Queue();
+
+        queueOne.Add(1);
+        queueOne.Add(2);
+        queueOne.Add(3);
+        queueTwo.Add(9);
+        queueTwo.Add(8);
+        queueTwo.Add(7);
+        queueOne.Print();
+        queueTwo.Print();
+
+        mergedQueue.Weave(queueOne, queueTwo);
+        mergedQueue.Print();
     }
 
     static void StackTest()
