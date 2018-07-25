@@ -31,6 +31,8 @@ class Stack
 
     void Print()
     {
+        System.out.print("Stack: ");
+
         for (int item : stack)
         {
             System.out.print(item + " ");

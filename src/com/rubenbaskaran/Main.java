@@ -22,6 +22,21 @@ public class Main
 //        QueueTest();
 //        BubbleSortTest();
 //        SelectionSort();
+        QueueOfStacksTest();
+    }
+
+    private static void QueueOfStacksTest()
+    {
+        QueueOfStacks queue = new QueueOfStacks();
+        queue.Add(1);
+        queue.Add(2);
+        queue.Add(3);
+        queue.Print();
+        System.out.println("Next: " + queue.Peek());
+        System.out.println("Removed: " + queue.Remove());
+        System.out.println("Next: " + queue.Peek());
+        System.out.println("Removed: " + queue.Remove());
+        queue.Print();
     }
 
     private static void FibonacciTest()
