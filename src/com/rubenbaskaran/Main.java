@@ -20,9 +20,9 @@ public class Main
 //        Fibonacci.Fibonacci(5);
 //        StackTest();
 //        QueueTest();
-        BubbleSortTest();
+//        BubbleSortTest();
+        SelectionSort();
 
-        //SelectionSort.SelectionSort();
     }
 
     static void QueueTest()
@@ -67,5 +67,12 @@ public class Main
         BubbleSort.Print();
         BubbleSort.BubbleSort();
         BubbleSort.Print();
+    }
+
+    static void SelectionSort()
+    {
+        SelectionSort.Print();
+        SelectionSort.SelectionSort();
+        SelectionSort.Print();
     }
 }
