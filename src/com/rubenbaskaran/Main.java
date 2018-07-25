@@ -18,7 +18,26 @@ public class Main
 //        System.out.println(Vowels.Vowels("this is a test message with vowels"));
 //        MatrixSpiral.MatrixSpiral(5);
 //        Fibonacci.Fibonacci(5);
+        StackTest();
 
+        // TODO: Queue, BubbleSort, SelectionSort
+    }
 
+    static void StackTest()
+    {
+        Stack stack = new Stack();
+        stack.Push(1);
+        stack.Push(2);
+        stack.Push(3);
+        stack.Print();
+        System.out.println("Peek: " + stack.Peek());
+        System.out.println("Pop: " + stack.Pop());
+        System.out.println("Peek: " + stack.Peek());
+        System.out.println("Pop: " + stack.Pop());
+        System.out.println("Peek: " + stack.Peek());
+        System.out.println("Pop: " + stack.Pop());
+        System.out.println("Peek: " + stack.Peek());
+        System.out.println("Pop: " + stack.Pop());
+        System.out.println("Peek: " + stack.Peek());
     }
 }
