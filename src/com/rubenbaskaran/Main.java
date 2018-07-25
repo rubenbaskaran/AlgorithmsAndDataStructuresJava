@@ -22,7 +22,8 @@ public class Main
 //        QueueTest();
 //        BubbleSortTest();
 //        SelectionSort();
-        QueueOfStacksTest();
+//        QueueOfStacksTest();
+        RegularExpressions.RegularExpressions();
     }
 
     private static void QueueOfStacksTest()
