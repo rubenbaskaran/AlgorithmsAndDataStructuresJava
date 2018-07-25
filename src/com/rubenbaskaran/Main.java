@@ -19,9 +19,10 @@ public class Main
 //        MatrixSpiral.MatrixSpiral(5);
 //        Fibonacci.Fibonacci(5);
 //        StackTest();
-        QueueTest();
+//        QueueTest();
+        BubbleSortTest();
 
-        // TODO: Queue, BubbleSort, SelectionSort
+        //SelectionSort.SelectionSort();
     }
 
     static void QueueTest()
@@ -59,5 +60,12 @@ public class Main
         System.out.println("Peek: " + stack.Peek());
         System.out.println("Pop: " + stack.Pop());
         System.out.println("Peek: " + stack.Peek());
+    }
+
+    static void BubbleSortTest()
+    {
+        BubbleSort.Print();
+        BubbleSort.BubbleSort();
+        BubbleSort.Print();
     }
 }
